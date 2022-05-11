@@ -1,0 +1,21 @@
+DDL Commands:
+
+1)Create - CREATE DATABASE database_name;                  
+2)Drop - DROP TABLE table_name;
+3)Alter - ALTER TABLE table_name
+          ADD (Columnname_1 datatype,
+          Columnname_2 datatype,
+           …
+          Columnname_n datatype);
+
+4)Truncate - TRUNCATE TABLE table_name;
+5) Rename - ALTER TABLE table_name
+            RENAME TO new_table_name
+
+DML Commands:
+
+1) Insert - INSERT INTO table_name VALUES (value1, value2, value3,…);
+2) Update - UPDATE table_name SET column1 = value1, column2 = value2,...
+           WHERE condition;
+3) Delete - DELETE FROM table_name WHERE some_condition;
+
